@@ -1,0 +1,114 @@
+[
+	{
+        "model": "khanto_api.Reserva",
+        "pk": 1,
+        "fields": {
+            "anuncio": 1,
+            "data_checkin": "2022-05-01",
+            "data_checkout": "2022-05-05",
+            "preco_total": 500.00,
+            "comentario": "Excelente imóvel, recomendo!",
+            "numero_hospedes": 4,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Reserva",
+        "pk": 2,
+        "fields": {
+            "anuncio": 1,
+            "data_checkin": "2022-05-01",
+            "data_checkout": "2022-05-05",
+            "preco_total": 600.00,
+            "comentario": "Excelente imóvel, recomendo!",
+            "numero_hospedes": 4,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Reserva",
+        "pk": 3,
+        "fields": {
+            "anuncio": 2,
+            "data_checkin": "2022-05-01",
+            "data_checkout": "2022-05-05",
+            "preco_total": 700.00,
+            "comentario": "Excelente imóvel, recomendo!",
+            "numero_hospedes": 4,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Reserva",
+        "pk": 4,
+        "fields": {
+            "anuncio": 3,
+            "data_checkin": "2022-05-01",
+            "data_checkout": "2022-05-05",
+            "preco_total": 300.00,
+            "comentario": "Excelente imóvel, recomendo!",
+            "numero_hospedes": 4,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Reserva",
+        "pk": 5,
+        "fields": {
+            "anuncio": 4,
+            "data_checkin": "2022-05-01",
+            "data_checkout": "2022-05-05",
+            "preco_total": 240.00,
+            "comentario": "Excelente imóvel, recomendo!",
+            "numero_hospedes": 4,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Reserva",
+        "pk": 6,
+        "fields": {
+            "anuncio": 4,
+            "data_checkin": "2022-05-01",
+            "data_checkout": "2022-05-05",
+            "preco_total": 240.00,
+            "comentario": "Excelente imóvel, recomendo!",
+            "numero_hospedes": 4,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Reserva",
+        "pk": 7,
+        "fields": {
+            "anuncio": 4,
+            "data_checkin": "2022-05-01",
+            "data_checkout": "2022-05-05",
+            "preco_total": 240.00,
+            "comentario": "Excelente imóvel, recomendo!",
+            "numero_hospedes": 4,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Reserva",
+        "pk": 8,
+        "fields": {
+            "anuncio": 4,
+            "data_checkin": "2022-05-02",
+            "data_checkout": "2022-05-05",
+            "preco_total": 240.00,
+            "comentario": "Excelente imóvel, recomendo!",
+            "numero_hospedes": 4,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    }
+]

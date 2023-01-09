@@ -1,0 +1,67 @@
+[
+    {
+        "model": "khanto_api.Imovel",
+        "pk": 1,
+        "fields": {
+            "limite_hospedes": 4,
+            "quantidade_banheiros": 2,
+            "aceita_animais": true,
+            "valor_limpeza": 100.00,
+            "data_ativacao": "2022-05-01",
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "khanto_api.Imovel",
+        "pk": 2,
+        "fields": {
+            "limite_hospedes": 2,
+            "quantidade_banheiros": 1,
+            "aceita_animais": false,
+            "valor_limpeza": 50.00,
+            "data_ativacao": "2022-06-15",
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "khanto_api.Imovel",
+        "pk": 3,
+        "fields": {
+            "limite_hospedes": 6,
+            "quantidade_banheiros": 3,
+            "aceita_animais": true,
+            "valor_limpeza": 150.00,
+            "data_ativacao": "2022-07-01",
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "khanto_api.Imovel",
+        "pk": 4,
+        "fields": {
+            "limite_hospedes": 6,
+            "quantidade_banheiros": 3,
+            "aceita_animais": true,
+            "valor_limpeza": 140.00,
+            "data_ativacao": "2022-07-01",
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+    {
+        "model": "khanto_api.Imovel",
+        "pk": 5,
+        "fields": {
+            "limite_hospedes": 8,
+            "quantidade_banheiros": 4,
+            "aceita_animais": true,
+            "valor_limpeza": 190.00,
+            "data_ativacao": "2022-07-01",
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    }
+]
