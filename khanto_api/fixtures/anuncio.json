@@ -1,0 +1,58 @@
+[
+	{
+        "model": "khanto_api.Anuncio",
+        "pk": 1,
+        "fields": {
+            "imovel": 1,
+            "plataforma": "AirBnb",
+            "taxa_plataforma": 0.15,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+
+        }
+    },
+	{
+        "model": "khanto_api.Anuncio",
+        "pk": 2,
+        "fields": {
+            "imovel": 1,
+            "plataforma": "Trivago",
+            "taxa_plataforma": 0.20,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Anuncio",
+        "pk": 3,
+        "fields": {
+            "imovel": 2,
+            "plataforma": "Tripadvisor",
+            "taxa_plataforma": 0.10,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Anuncio",
+        "pk": 4,
+        "fields": {
+            "imovel": 2,
+            "plataforma": "Booking.com",
+            "taxa_plataforma": 0.10,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    },
+	{
+        "model": "khanto_api.Anuncio",
+        "pk": 5,
+        "fields": {
+            "imovel": 2,
+            "plataforma": "Agoda",
+            "taxa_plataforma": 0.10,
+            "criado_em": "2022-01-01T00:00:00Z",
+            "atualizado_em": "2022-01-01T00:00:00Z"
+        }
+    }
+]
