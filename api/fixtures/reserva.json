@@ -1,6 +1,6 @@
 [
 	{
-        "model": "khanto_api.Reserva",
+        "model": "api.Reserva",
         "pk": 1,
         "fields": {
             "anuncio": 1,
@@ -14,7 +14,7 @@
         }
     },
 	{
-        "model": "khanto_api.Reserva",
+        "model": "api.Reserva",
         "pk": 2,
         "fields": {
             "anuncio": 1,
@@ -28,7 +28,7 @@
         }
     },
 	{
-        "model": "khanto_api.Reserva",
+        "model": "api.Reserva",
         "pk": 3,
         "fields": {
             "anuncio": 2,
@@ -42,7 +42,7 @@
         }
     },
 	{
-        "model": "khanto_api.Reserva",
+        "model": "api.Reserva",
         "pk": 4,
         "fields": {
             "anuncio": 3,
@@ -56,7 +56,7 @@
         }
     },
 	{
-        "model": "khanto_api.Reserva",
+        "model": "api.Reserva",
         "pk": 5,
         "fields": {
             "anuncio": 4,
@@ -70,7 +70,7 @@
         }
     },
 	{
-        "model": "khanto_api.Reserva",
+        "model": "api.Reserva",
         "pk": 6,
         "fields": {
             "anuncio": 4,
@@ -84,7 +84,7 @@
         }
     },
 	{
-        "model": "khanto_api.Reserva",
+        "model": "api.Reserva",
         "pk": 7,
         "fields": {
             "anuncio": 4,
@@ -98,7 +98,7 @@
         }
     },
 	{
-        "model": "khanto_api.Reserva",
+        "model": "api.Reserva",
         "pk": 8,
         "fields": {
             "anuncio": 4,

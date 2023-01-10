@@ -1,9 +1,9 @@
 from django.core.exceptions import ValidationError
 from django.db import models
-from django.utils import timezone
 
 import random
 import uuid
+
 
 class ClasseBase(models.Model):
     criado_em = models.DateTimeField(auto_now_add=True)
@@ -11,6 +11,7 @@ class ClasseBase(models.Model):
 
     class Meta:
         abstract = True
+
 
 class Imovel(ClasseBase):
     codigo_imovel = models.CharField(
@@ -24,10 +25,12 @@ class Imovel(ClasseBase):
     valor_limpeza = models.DecimalField(max_digits=8, decimal_places=2)
     data_ativacao = models.DateField()
 
+
 class Anuncio(ClasseBase):
-    imovel = models.ForeignKey(Imovel, on_delete=models.CASCADE)
+    imovel = models.ForeignKey(Imovel, on_delete=models.CASCADE, related_name='anuncios')
     plataforma = models.CharField(max_length=50)
     taxa_plataforma = models.DecimalField(max_digits=8, decimal_places=2)
+
 
 class Reserva(ClasseBase):
     codigo_reserva = models.CharField(
@@ -35,7 +38,7 @@ class Reserva(ClasseBase):
         default=uuid.uuid4,
         editable=False
     )
-    anuncio = models.ForeignKey(Anuncio, on_delete=models.CASCADE)
+    anuncio = models.ForeignKey(Anuncio, on_delete=models.CASCADE, related_name='reservas')
     data_checkin = models.DateField()
     data_checkout = models.DateField()
     preco_total = models.DecimalField(max_digits=8, decimal_places=2)
@@ -46,10 +49,6 @@ class Reserva(ClasseBase):
         if self.data_checkout < self.data_checkin:
             raise ValidationError(
                 'A data de check-out não pode ser maior que a de check-in'
-            )
-        if self.data_checkin < timezone.now().date():
-            raise ValidationError(
-                'A data de check-in não pode ser menor que a data atual'
             )
 
     def save(self, *args, **kwargs):
